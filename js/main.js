@@ -3,7 +3,7 @@ const hours = document.querySelector('#hours')
 const minutes = document.querySelector('#minutes')
 const seconds = document.querySelector('#seconds')
 const countdown = document.querySelector('#countdown')
-const uploadDate = new Date(`April 05 2021 12:00:00`)
+const uploadDate = new Date(`April 23 2021 12:00:00`)
 
 // Update countdown time
 function updateCountdown() {
@@ -25,7 +25,7 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000)
 
 const textEl = document.getElementById('text')
-const text = 'I am a Data Scientist'
+const text = 'I am a Data Enthusiast'
 let idx = 1
 
 writeText()
